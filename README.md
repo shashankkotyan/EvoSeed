@@ -4,7 +4,7 @@
 
 </div>
 
-Source for the article: [EvoSeed: Unveiling the Threat on Deep Neural Networks with Real-World Illusions]()
+Source for the article: [EvoSeed: Unveiling the Threat on Deep Neural Networks with Real-World Illusions](https://arxiv.org/abs/2402.04699)
 
 ## 🌟 Features
 
@@ -22,11 +22,15 @@ Visualization of the generated natural adversarial samples by Random Search (Ran
 If you find this project useful please cite:
 
 ```
-@article{kotyan2024evoseed,
-    title = {EvoSeed: Unveiling the Threat on Deep Neural Networks with Real-World Illusions,
-    shorttitle = {EvoSeed},
-    author = {Kotyan, Shashank and Mao, PoYuan and Vargas, Danilo Vasconcellos},
-    year = {2024},
-    month = feb,
+@article{kotyan2024EvoSeed,
+  title = {{{EvoSeed}}: {{Unveiling}} the {{Threat}} on {{Deep Neural Networks}} with {{Real-World Illusions}}},
+  shorttitle = {{{EvoSeed}}},
+  author = {Kotyan, Shashank and Mao, PoYuan and Vargas, Danilo Vasconcellos},
+  year = {2024},
+  month = feb,
+  number = {arXiv:2402.04699},
+  eprint = {2402.04699},
+  publisher = {{arXiv}},
+  doi = {10.48550/arXiv.2402.04699},
 }
 ```
