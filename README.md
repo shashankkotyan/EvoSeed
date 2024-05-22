@@ -4,11 +4,10 @@
 
 </div>
 
-Source for the article: [EvoSeed: Unveiling the Threat on Deep Neural Networks with Real-World Illusions](https://arxiv.org/abs/2402.04699)
+Source for the article: [Breaking Free: How to Hack Safety Guardrails in Black-Box Diffusion Models!](https://arxiv.org/abs/2402.04699)
 
 ## 🌟 Features
 
-- A model-agnostic black-box algorithimic framework based on Evolutionary Strategy to generate unrestricted natural adversarial samples
 - A model-agnostic black-box algorithimic framework based on Evolutionary Strategy to generate unrestricted natural adversarial samples
 
 
@@ -23,11 +22,10 @@ If you find this project useful please cite:
 
 ```
 @article{kotyan2024EvoSeed,
-  title = {{{EvoSeed}}: {{Unveiling}} the {{Threat}} on {{Deep Neural Networks}} with {{Real-World Illusions}}},
-  shorttitle = {{{EvoSeed}}},
-  author = {Kotyan, Shashank and Mao, PoYuan and Vargas, Danilo Vasconcellos},
+  title = {Breaking Free: How to Hack Safety Guardrails in Black-Box Diffusion Models!,
+  author = {Kotyan, Shashank and Mao, Po-Yuan and Vargas, Danilo Vasconcellos, Chen and Pin-Yu},
   year = {2024},
-  month = feb,
+  month = may,
   number = {arXiv:2402.04699},
   eprint = {2402.04699},
   publisher = {{arXiv}},
