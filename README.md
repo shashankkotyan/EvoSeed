@@ -12,7 +12,7 @@
 - Our results show that adversarial samples created using EvoSeed are photo-realistic and do not change the human perception of the generated image; however, can be misclassified by various robust and non-robust classifiers.
 
 <div align="center">
-    <img src="./assets/transparent/demo.png" alt="" width="100%", style="background-color:white">
+    <img src="./assets/demo.png" alt="" width="100%">
 </div>
 Figure: Adversarial images created with EvoSeed are prime examples of how to deceive a range of classifiers tailored for various tasks.
 Note that, the generated natural adversarial images differ from non-adversarial ones, suggesting the adversarial images' unrestricted nature.
