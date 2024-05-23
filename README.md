@@ -1,6 +1,6 @@
 <div align="center">
 
-# **🎏 EvoSeed 🎏**
+# <img src="./assets/icons/EvoSeed.png" alt="EvoSeed" class="image" style="height:70px;"> **EvoSeed** <img src="./assets/icons/EvoSeed.png" alt="EvoSeed" class="image" style="height:70px;">
 
 </div>
 
@@ -23,7 +23,7 @@ If you find this project useful please cite:
 ```
 @article{kotyan2024EvoSeed,
   title = {Breaking Free: How to Hack Safety Guardrails in Black-Box Diffusion Models!,
-  author = {Kotyan, Shashank and Mao, Po-Yuan and Vargas, Danilo Vasconcellos, Chen and Pin-Yu},
+  author = {Kotyan, Shashank and Mao, Po-Yuan and Chen, Pin-Yu and Vargas, Danilo Vasconcellos},
   year = {2024},
   month = may,
   number = {arXiv:2402.04699},
