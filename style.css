@@ -95,12 +95,7 @@ tr.space>td {
 	text-align: justify;
 }
 
-.image {
-	text-align: center;
-	margin: auto;
-}
-
-.image:hover {
+.nsfw-img-container img:hover {
 	cursor: pointer;
 	background-color: #f4f4f4;
 	color: black;
@@ -111,7 +106,7 @@ figcaption {
 	color: rgba(255, 20, 147);
 	font-size: 20px;
 	line-height: 1.5em;
-	text-align: inherit;
+	text-align: center;
 	padding-top: 0;
 }
 
@@ -228,20 +223,30 @@ code {
 	display: block;
 }
 
-.warning-overlay {
+
+.nsfw-img-container {
+	position: relative;
+}
+
+/* the overlay  */
+.nsfw-img-container :first-child {
 	position: absolute;
 	top: 0;
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background-color: rgba(0, 0, 0, 0.5);
-	/* Semi-transparent black overlay */
-	color: white;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	font-size: 24px;
 	font-weight: bold;
-	text-align: center;
 	cursor: pointer;
+	backdrop-filter: blur(14px);
+	color: white;
+	background-color: #8080807a;
+}
+
+/* the image */
+.nsfw-img-container :nth-child(2) {
+	width: 100%;
 }
