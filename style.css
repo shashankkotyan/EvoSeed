@@ -3,12 +3,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,400;1,500&display=swap');
 
 .hr-twill-colorful {
-    border: 0;
-    padding: 3px;
-    background: linear-gradient(135deg, red, orange,green, blue, purple);
-    --mask-image: repeating-linear-gradient(135deg, #000 0px, #000 1px, transparent 1px, transparent 6px);
-    -webkit-mask-image: var(--mask-image);
-    mask-image: var(--mask-image);
+	border: 0;
+	padding: 3px;
+	background: linear-gradient(135deg, red, orange, green, blue, purple);
+	--mask-image: repeating-linear-gradient(135deg, #000 0px, #000 1px, transparent 1px, transparent 6px);
+	-webkit-mask-image: var(--mask-image);
+	mask-image: var(--mask-image);
 }
 
 .title {
@@ -17,7 +17,8 @@
 	font-weight: 500;
 	display: block;
 	text-align: center;
-	margin-top: 14px; /* h1 default */
+	margin-top: 14px;
+	/* h1 default */
 	margin-bottom: 0px;
 	padding-top: 40px;
 	padding-bottom: 5px;
@@ -31,31 +32,32 @@
 	padding: 0 3em 0 3em;
 }
 
-.author a{
+.author a {
 	border-bottom: solid 1px #ddd;
 	color: inherit;
 	text-decoration: none;
 }
 
 tr.space>td {
-  padding-top: 1em;
-  padding-bottom: 1em;
+	padding-top: 1em;
+	padding-bottom: 1em;
 }
 
-.affiliations{
+.affiliations {
 	border-bottom: solid 1px #ddd;
 	color: inherit;
 	text-decoration: none;
-	border: 0; 
+	border: 0;
 	align: center;
 }
-.menu{
-	width:80%;
+
+.menu {
+	width: 80%;
 	border: 0;
 	margin-bottom: 8px;
 }
 
-.menu a{
+.menu a {
 	color: inherit;
 	text-decoration: none;
 	margin: 0pt 1%;
@@ -65,10 +67,13 @@ tr.space>td {
 .container {
 	width: 100%;
 	/* min-height: 1200px; */
-	max-height: 999999px; /* prevents font boosting */
-	margin: 0 auto; /* top and bottom, right and left */
+	max-height: 999999px;
+	/* prevents font boosting */
+	margin: 0 auto;
+	/* top and bottom, right and left */
 	/*  border: 1px solid #000; */
-	text-align: left; /* top, right, bottom, left */
+	text-align: left;
+	/* top, right, bottom, left */
 	color: #000;
 	/* background: #fff; */
 	padding-top: 5px;
@@ -77,22 +82,23 @@ tr.space>td {
 	padding-bottom: 5px;
 }
 
-.section{
+.section {
 	font-size: 140%;
 	font-weight: 500;
 	text-align: center;
 }
 
-.subsection{
+.subsection {
 	font-size: 120%;
 	font-weight: 200;
 	text-align: center;
 }
-.text{
+
+.text {
 	text-align: justify;
 }
 
-.image{
+.image {
 	text-align: center;
 	margin: auto;
 }
@@ -103,16 +109,16 @@ tr.space>td {
 	color: black;
 }
 
-figcaption{
+figcaption {
 	padding: 0.5em;
-	color: rgba(255,20,147);
+	color: rgba(255, 20, 147);
 	font-size: 20px;
 	line-height: 1.5em;
 	text-align: inherit;
 	padding-top: 0;
 }
 
-.bibtex{
+.bibtex {
 	font-family: Google Sans, Courier, monospace;
 	white-space: pre;
 	display: block;
@@ -122,11 +128,12 @@ figcaption{
 	max-width: 100%;
 	min-width: 100px;
 	border-radius: 0px;
-                      
+
 }
 
-strong, b {
-    font-weight: 500;
+strong,
+b {
+	font-weight: 500;
 }
 
 body {
@@ -181,23 +188,23 @@ table.menu {
 
 
 sup {
-    font-size: 0.7em;
-    position: relative;
-    top: 0em;
-    vertical-align: super;
-    font-size: smaller;
+	font-size: 0.7em;
+	position: relative;
+	top: 0em;
+	vertical-align: super;
+	font-size: smaller;
 }
 
 
 
 
 table.affiliations {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: .5em;
-    margin-bottom: .5em;
-    width: 100%;
-    max-width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: .5em;
+	margin-bottom: .5em;
+	width: 100%;
+	max-width: 80%;
 }
 
 
@@ -211,37 +218,37 @@ table.affiliations {
 
 
 code {
-	font-family: Consolas,"courier new";
+	font-family: Consolas, "courier new";
 	color: crimson;
 	background-color: #f1f1f1;
 	padding: 2px;
 	font-size: 105%;
-	}
+}
 
-.sensitive{
-display: block;
+.sensitive {
+	display: block;
 	text-align: center;
 	margin: auto;
 }
 
 .block {
-    display: block;
-  }
- 
-.warning-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 24px;
-    font-weight: bold;
-    text-align: center;
-    cursor: pointer;
-  }
+	display: block;
+}
 
+.warning-overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+	/* Semi-transparent black overlay */
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 24px;
+	font-weight: bold;
+	text-align: center;
+	cursor: pointer;
+}
