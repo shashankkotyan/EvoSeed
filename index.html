@@ -1,3 +1,6 @@
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
 	<!-- ***** -->
 	<title>
@@ -46,40 +49,25 @@
 				href="https://danilovargas.org/">Danilo&nbsp;Vasconcellos&nbsp;Vargas</a>&nbsp;<sup>1</sup></span>
 	</p>
 
-	<table class="affiliations">
-		<tbody>
-			<tr class="space"></tr>
-			<tr>
-				<td style="text-align: center; width:0%; "><sup>1</sup>&nbsp;Kyushu&nbsp;University</td>
-			</tr>
-			<tr>
-				<td style="text-align: center; width:0%; "><sup>2</sup>&nbsp;IBM&nbsp;Research</td>
-			</tr>
-			<tr class="space">
-				<td style="text-align: center; width:0%; ">*&nbsp;Equal&nbsp;Contribution</td>
-			</tr>
+	<div class="affiliations">
+		<span><sup>1</sup>&nbsp;Kyushu&nbsp;University</span>
+		<span><sup>2</sup>&nbsp;IBM&nbsp;Research</span>
+		<span style="grid-row: 3 / 5;"><sup>*</sup>&nbsp;Equal&nbsp;Contribution</span>
+	</div>
 
-		</tbody>
-	</table>
-
-	<table align="center" class="menu">
-		<tbody>
-			<tr>
-				<td align="center">
-					<span class="menu"><a href="https://arxiv.org/abs/2402.04699">
-							<img src="./assets/icons/publication.png" alt="Publication" class="image"
-								style="height:20px;">&nbsp;[Article]
-						</a></span>
-					<span class="menu"><a href="https://github.com/shashankkotyan/EvoSeed/">
-							<img src="./assets/icons/github.png" alt="GitHub" class="image" style="height:20px;">&nbsp;[Code]
-						</a></span>
-					<span class="menu"><a href="./assets/reference.bib">
-							<img src="./assets/icons/cite.png" alt="Reference" class="image" style="height:20px;">&nbsp;[BibTeX]
-						</a></span>
-				</td>
-			</tr>
-		</tbody>
-	</table>
+	<div class="menu">
+		<a href="https://arxiv.org/abs/2402.04699">
+			<img src="./assets/icons/publication.png" alt="Publication" class="image"
+				style="height:20px;" />&nbsp;<span>[Article]</span>
+		</a>
+		<a href="https://github.com/shashankkotyan/EvoSeed/">
+			<img src="./assets/icons/github.png" alt="GitHub" class="image" style="height:20px;" />&nbsp;<span>[Code]</span>
+		</a>
+		<a href="#bibtex">
+			<img src="./assets/icons/cite.png" alt="Reference" class="image"
+				style="height:20px;" />&nbsp;<span>[BibTeX]</span>
+		</a>
+	</div>
 
 	<div class="container">
 		<br>
@@ -179,17 +167,31 @@
 			<strong>Adversarial Images bypass Safety Checkers</strong>
 		</p>
 
-
-		<div class="image">
-			<img src="./assets/transparent/nsfw.png"
-				alt="We demonstrate a malicious use of EvoSeed to generate harmful content bypassing safety mechanisms. 
-            These adversarial images are misclassified as appropriate, highlighting better post-image generation checking for such generated images."
-				width="100%">
-			<figcaption> Figure: We demonstrate a malicious use of EvoSeed to generate harmful content bypassing safety
-				mechanisms.
-				These adversarial images are misclassified as appropriate, highlighting better post-image generation checking
-				for such generated images. </figcaption>
+		<div class="image-container">
+			<div class="overlay" onclick="revealImage(this)">
+				Sensitive Content, click to see
+			</div>
+			<figure>
+				<img src="./assets/transparent/nsfw.png"
+					alt="We demonstrate a malicious use of EvoSeed to generate harmful content bypassing safety mechanisms. 
+						These adversarial images are misclassified as appropriate, highlighting better post-image generation checking for such generated images." />
+				<figcaption> Figure: We demonstrate a malicious use of EvoSeed to generate harmful content bypassing safety
+					mechanisms.
+					These adversarial images are misclassified as appropriate, highlighting better post-image generation checking
+					for such generated images. </figcaption>
+			</figure>
 		</div>
+
+		<!-- <div class="image"> -->
+		<!-- 	<img src="./assets/transparent/nsfw.png" -->
+		<!-- 		alt="We demonstrate a malicious use of EvoSeed to generate harmful content bypassing safety mechanisms.  -->
+		<!--         These adversarial images are misclassified as appropriate, highlighting better post-image generation checking for such generated images." -->
+		<!-- 		width="100%"> -->
+		<!-- 	<figcaption> Figure: We demonstrate a malicious use of EvoSeed to generate harmful content bypassing safety -->
+		<!-- 		mechanisms. -->
+		<!-- 		These adversarial images are misclassified as appropriate, highlighting better post-image generation checking -->
+		<!-- 		for such generated images. </figcaption> -->
+		<!-- </div> -->
 
 		<br>
 		<hr class="hr-twill-colorful"><br>

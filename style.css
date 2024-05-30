@@ -43,18 +43,15 @@ tr.space>td {
 	padding-bottom: 1em;
 }
 
-.affiliations {
-	border-bottom: solid 1px #ddd;
-	color: inherit;
-	text-decoration: none;
-	border: 0;
-	align: center;
-}
-
 .menu {
 	width: 80%;
 	border: 0;
 	margin-bottom: 8px;
+	font-size: 13pt;
+	font-weight: 500;
+	display: flex;
+	justify-content: center;
+	margin-inline: auto;
 }
 
 .menu a {
@@ -179,13 +176,6 @@ body {
 	overflow: hidden;
 }
 
-table.menu {
-	font-size: 13pt;
-	font-weight: 500;
-}
-
-
-
 
 sup {
 	font-size: 0.7em;
@@ -197,14 +187,17 @@ sup {
 
 
 
-
-table.affiliations {
+.affiliations {
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: .5em;
 	margin-bottom: .5em;
-	width: 100%;
-	max-width: 80%;
+	width: 80%;
+	display: grid;
+	/* four rows 	 */
+	grid-template-rows: repeat(4, 1fr);
+	justify-content: center;
+	justify-items: center;
 }
 
 
