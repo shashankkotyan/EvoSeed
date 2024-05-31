@@ -22,9 +22,13 @@
 	<link rel="stylesheet" href="style.css" type="text/css">
 	<link rel="stylesheet" href="https://fonts.cdnfonts.com/css/chalkduster">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
-		integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+		integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" 
+		crossorigin="anonymous">
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+	<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
 		integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
 		crossorigin="anonymous"></script>
@@ -34,14 +38,13 @@
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
 		integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
 		crossorigin="anonymous"></script>
-	<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-	<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+	
 </head>
 
 <body>
 
 	<p class="title">
-		<img src="./assets/icons/EvoSeed.png" alt="EvoSeed" class="image" style="height:70px;">
+		<img src="./assets/icons/EvoSeed.png" alt="EvoSeed" class="icon" style="height:70px;">
 		&nbsp;Breaking Free: How to Hack Safety Guardrails in Black-Box Diffusion Models!&nbsp;
 		<img src="./assets/icons/EvoSeed.png" alt="EvoSeed" class="image" style="height:70px;">
 	</p>
@@ -62,61 +65,69 @@
 	</p>
 
 	<div class="affiliations">
-		<span><sup>1</sup>&nbsp;Kyushu&nbsp;University</span>
-		<span><sup>2</sup>&nbsp;IBM&nbsp;Research</span>
-		<span style="grid-row: 3 / 5;"><sup>*</sup>&nbsp;Equal&nbsp;Contribution</span>
+		<span>1&nbsp;Kyushu&nbsp;University</span>
+		<span>2&nbsp;IBM&nbsp;Research</span>
+		<span>*&nbsp;Equal&nbsp;Contribution</span>
 	</div>
 
 	<div class="menu">
 		<a href="https://arxiv.org/abs/2402.04699">
-			<img src="./assets/icons/publication.png" alt="Publication" class="image"
-				style="height:20px;" />&nbsp;<span>[Article]</span>
+			<img src="./assets/icons/publication.png" alt="Publication" class="image"style="height:20px;" />
+			<span>&nbsp;[Article]</span>
 		</a>
 		<a href="https://github.com/shashankkotyan/EvoSeed/">
-			<img src="./assets/icons/github.png" alt="GitHub" class="image" style="height:20px;" />&nbsp;<span>[Code]</span>
+			<img src="./assets/icons/github.png" alt="GitHub" class="image" style="height:20px;" />
+			<span>&nbsp;[Code]</span>
 		</a>
 		<a href="#bibtex">
-			<img src="./assets/icons/cite.png" alt="Reference" class="image"
-				style="height:20px;" />&nbsp;<span>[BibTeX]</span>
+			<img src="./assets/icons/cite.png" alt="Reference" class="image" style="height:20px;" />
+			<span>&nbsp;[BibTeX]</span>
 		</a>
 	</div>
 
 	<div class="container">
-		<br>
-		<hr class="hr-twill-colorful"><br>
 
+		<br><hr class="hr-twill-colorful"><br>
 
 		<figure>
 			<div class="nsfw-img-container">
 				<div onclick="revealImage(this)">
-					Sensitive Content, click to see
+					<span>&nbsp;This image may contain sensitive or offensive content.<br>Click to view at your own discretion.</span>
 				</div>
 				<img src="./assets/transparent/demo.png" onclick="hideImage(this)"
-					alt="Adversarial images created with EvoSeed are prime examples of how to deceive a range of classifiers tailored for various tasks. 
-				Note that, the generated natural adversarial images differ from non-adversarial ones, suggesting the adversarial images' unrestricted nature." />
+					alt="
+						Adversarial images created with EvoSeed are prime examples of how to deceive a range of classifiers tailored for various tasks.
+						Note that, the generated natural adversarial images differ from non-adversarial ones, suggesting the adversarial images' unrestricted nature.
+					" />
 			</div>
-			<figcaption>Figure: Adversarial images created with EvoSeed are prime examples of how to deceive a range of
-				classifiers tailored for various tasks.
-				Note that, the generated natural adversarial images differ from non-adversarial ones, suggesting the adversarial
-				images' unrestricted nature..</figcaption>
+			<figcaption>Figure: 
+				Adversarial images created with EvoSeed are prime examples of how to deceive a range of classifiers tailored for various tasks.
+				Note that, the generated natural adversarial images differ from non-adversarial ones, suggesting the adversarial images' unrestricted nature.
+			</figcaption>
 		</figure>
 
+		<br><hr class="hr-twill-colorful"><br>
 
-		<br>
+		<p class="section">
+			<img src="./assets/icons/contributions.png" alt="Contributions" class="image" style="height:40px;">&nbsp;
+			<strong>Key Contributions:</strong>
+		</p>
 
-		<img src="./assets/icons/contributions.png" alt="Contributions" class="image" style="height:40px;">&nbsp;
-		<strong>Key Contributions:</strong>
+		<p class="text">
+			<ul>
+				<li> 
+					We propose a black-box algorithmic framework based on an Evolutionary Strategy titled EvoSeed to
+					generate natural adversarial samples in an unrestricted setting. 
+				</li>
+				<li> 
+					Our results show that adversarial samples created using EvoSeed are photo-realistic and do not change the
+					human perception of the generated image; however, can be misclassified by various robust and non-robust
+					classifiers.
+				</li>
+			</ul>
+		</p>
 
-		<ul>
-			<li> We propose a black\nobreakdash-box algorithmic framework based on an Evolutionary Strategy titled EvoSeed to
-				generate natural adversarial samples in an unrestricted setting. </li>
-			<li> Our results show that adversarial samples created using EvoSeed are photo-realistic and do not change the
-				human perception of the generated image; however, can be misclassified by various robust and non-robust
-				classifiers. </li>
-		</ul>
-
-		<br>
-		<hr class="hr-twill-colorful"><br>
+		<br><hr class="hr-twill-colorful"><br>
 
 		<p class="section">
 			<img src="./assets/icons/abstract.png" alt="Abstract" class="image" style="height:40px;">&nbsp;
@@ -138,8 +149,7 @@
 			plausible attacks against classifier systems using image generation.
 		</p>
 
-		<br>
-		<hr class="hr-twill-colorful"><br>
+		<br><hr class="hr-twill-colorful"><br>
 
 		<p class="section">
 			<img src="./assets/icons/EvoSeed.png" alt="EvoSeed" class="image" style="height:40px;">&nbsp;
@@ -150,17 +160,16 @@
 			<img src="./assets/transparent/framework.png"
 				alt="Illustration of the EvoSeed framework to optimize initial seed vector \( z \) to generate a natural adversarial sample. The Covariance Matrix Adaptation Evolution Strategy (CMA-ES) iteratively refines the initial seed vector \( z \) and finds an adversarial initial seed vector \( z' \). This adversarial seed vector \( z' \) can then be utilized by the Conditional Diffusion Model \( G \) to generate a natural adversarial sample \( x \) capable of deceiving the Classifier Model \( F \)."
 				style="width:100%" />
-			<figcaption>Figure: Illustration of the EvoSeed framework to optimize initial seed vector \( z \)
+			<figcaption>Figure: 
+				Illustration of the EvoSeed framework to optimize initial seed vector \( z \)
 				to generate a natural adversarial sample. The Covariance Matrix Adaptation Evolution Strategy (CMA-ES)
 				iteratively refines the initial seed vector \( z \) and finds an adversarial initial seed vector \( z' \). This
 				adversarial seed vector \( z' \) can then be utilized by the Conditional Diffusion Model \( G \) to generate a
-				natural adversarial sample \( x \) capable of deceiving the Classifier Model \( F \). </figcaption>
+				natural adversarial sample \( x \) capable of deceiving the Classifier Model \( F \). 
+			</figcaption>
 		</figure>
 
-		<br>
-
-		<br>
-		<hr class="hr-twill-colorful"><br>
+		<br><hr class="hr-twill-colorful"><br>
 
 		<p class="section">
 			<img src="./assets/icons/object-classification.png" alt="Object Classification" class="image"
@@ -175,8 +184,7 @@
 				We show that images that are aligned with the conditioning can be misclassified. </figcaption>
 		</figure>
 
-		<br>
-		<hr class="hr-twill-colorful"><br>
+		<br><hr class="hr-twill-colorful"><br>
 
 		<p class="section">
 			<img src="./assets/icons/nsfw.png" alt="NSFW" class="image" style="height:40px;">&nbsp;
@@ -186,7 +194,7 @@
 		<figure>
 			<div class="nsfw-img-container">
 				<div onclick="revealImage(this)">
-					Sensitive Content, click to see
+					<span>&nbsp;This image may contain sensitive or offensive content.<br>Click to view at your own discretion.</span>
 				</div>
 				<img src="./assets/transparent/nsfw.png" onclick="hideImage(this)"
 					alt="We demonstrate a malicious use of EvoSeed to generate harmful content bypassing safety mechanisms. 
@@ -198,8 +206,7 @@
 				for such generated images. </figcaption>
 		</figure>
 
-		<br>
-		<hr class="hr-twill-colorful"><br>
+		<br><hr class="hr-twill-colorful"><br>
 
 		<p class="section">
 			<img src="./assets/icons/race.png" alt="Ethinicity" class="image" style="height:40px;">&nbsp;
@@ -215,8 +222,7 @@
 				such classifiers. </figcaption>
 		</figure>
 
-		<br>
-		<hr class="hr-twill-colorful"><br>
+		<br><hr class="hr-twill-colorful"><br>
 
 		<p class="section">
 			<img src="./assets/icons/alignment.png" alt="Misalignment" class="image" style="height:40px;">&nbsp;
@@ -232,8 +238,7 @@
 				non-aligned images with the conditioning. </figcaption>
 		</figure>
 
-		<br>
-		<hr class="hr-twill-colorful"><br>
+		<br><hr class="hr-twill-colorful"><br>
 
 		<p class="section">
 			<img src="./assets/icons/evolution.png" alt="Evolution" class="image" style="height:40px;">&nbsp;
@@ -251,21 +256,20 @@
 				is the initial non-adversarial image with the highest confidence. </figcaption>
 		</figure>
 
-		<br>
-		<hr class="hr-twill-colorful"><br>
+		<br><hr class="hr-twill-colorful"><br>
 
 		<p class="section" id="bibtex"><b>Bibtex</b></p>
 		<pre class="bibtex">
-			@article{kotyan2024EvoSeed,
-			title = {Breaking Free: How to Hack Safety Guardrails in Black-Box Diffusion Models!,
-			author = {Kotyan, Shashank and Mao, Po-Yuan and Chen, Pin-Yu and Vargas, Danilo Vasconcellos},
-			year = {2024},
-			month = may,
-			number = {arXiv:2402.04699},
-			eprint = {2402.04699},
-			publisher = {{arXiv}},
-			doi = {10.48550/arXiv.2402.04699},
-			}
+@article{kotyan2024EvoSeed,
+	title = {Breaking Free: How to Hack Safety Guardrails in Black-Box Diffusion Models!,
+	author = {Kotyan, Shashank and Mao, Po-Yuan and Chen, Pin-Yu and Vargas, Danilo Vasconcellos},
+	year = {2024},
+	month = may,
+	number = {arXiv:2402.04699},
+	eprint = {2402.04699},
+	publisher = {{arXiv}},
+	doi = {10.48550/arXiv.2402.04699},
+}
 		</pre>
 
 	</div>
@@ -275,12 +279,10 @@
 			overlay.style.display = "none";
 		}
 		function hideImage(img) {
-			// get previous sibling
 			var overlay = img.previousElementSibling;
 			overlay.style.display = "flex";
 		}
 	</script>
-
 
 </body>
 
