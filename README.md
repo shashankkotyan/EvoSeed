@@ -1,27 +1,50 @@
 <div align="center">
+  <img src="./assets/Volcano-Seashore.jpg" alt="" width="100%">
 
-# <img src="./assets/icons/EvoSeed.png" alt="EvoSeed" class="image" style="height:50px;"> **EvoSeed** <img src="./assets/icons/EvoSeed.png" alt="EvoSeed" class="image" style="height:50px;">
+  <br>
+
+  # <img src="./assets/icons/EvoSeed.png" style="height:1.5em;"> **EvoSeed** <img src="./assets/icons/EvoSeed.png" alt="EvoSeed" class="image" style="height:1.5em;">
+
+  <br>
+
+  <img src="./assets/cover.jpg" alt="Publication" width="100%">
 
 </div>
 
-<img src="./assets/icons/publication.png" alt="Publication" class="image" style="height:20px;"> Source for the article: [Breaking Free: How to Hack Safety Guardrails in Black-Box Diffusion Models!](https://arxiv.org/abs/2402.04699)
+<img src="./assets/icons/publication.png" style="height:20px;"> Source for the article: [Breaking Free: How to Hack Safety Guardrails in Black-Box Diffusion Models!](https://arxiv.org/abs/2402.04699)
 
-## <img src="./assets/icons/contributions.png" alt="Contributions" class="image" style="height:40px;"> Key Contributions:
+> <img src="./assets/icons/firework.png" style="height:1.5em;"> (New!) Added Tutorial to generate adversarial images for ResNet-50 using Stable Diffusion.
 
-- We propose a black\nobreakdash-box algorithmic framework based on an Evolutionary Strategy titled EvoSeed to generate natural adversarial samples in an unrestricted setting.
+
+## <img src="./assets/icons/contributions.png" style="height:1.5em;"> Key Contributions:
+
+- We propose a black-box algorithmic framework based on an Evolutionary Strategy titled EvoSeed to generate natural adversarial samples in an unrestricted setting.
 - Our results show that adversarial samples created using EvoSeed are photo-realistic and do not change the human perception of the generated image; however, can be misclassified by various robust and non-robust classifiers.
 
-<div align="center">
-    <img src="./assets/demo.png" alt="" width="100%">
+<div align="center" vertical-align="middle">
+    <img src="./assets/demo.jpg" alt="" width="100%">
 </div>
 Figure: Adversarial images created with EvoSeed are prime examples of how to deceive a range of classifiers tailored for various tasks.
 Note that, the generated natural adversarial images differ from non-adversarial ones, suggesting the adversarial images' unrestricted nature.
 
-## <img src="./assets/icons/cite.png" alt="Reference" class="image" style="height:20px;"> Citation:
+## <img src="./assets/icons/mortarboard.png" style="height:1.5em;"> Tutorial:
+Tutorial for creating adversarial images for ResNet-50 using Stable Diffusion can be found in the [notebook](./code/Tutorial.ipynb)
+
+<div align="center" style="display: inline-block;">
+    <img src="./assets/Correct Classification.jpg" alt="" width="25%" style="vertical-align: middle;">
+    <img src="./assets/icons/arrow-right.png" alt="" width="10%" style="vertical-align: middle;">
+    <img src="./assets/volcano-optimize.gif" alt="" width="25%" style="vertical-align: middle;">
+    <img src="./assets/icons/arrow-right.png" alt="" width="10%" style="vertical-align: middle;">
+    <img src="./assets/Wrong Classification.jpg" alt="" width="25%" style="vertical-align: middle;">
+</div>
+
+
+
+## <img src="./assets/icons/cite.png" style="height:1.5em;"> Citation:
 
 If you find this project useful please cite:
 
-```
+```bibtex
 @article{kotyan2024EvoSeed,
   title = {Breaking Free: How to Hack Safety Guardrails in Black-Box Diffusion Models!,
   author = {Kotyan, Shashank and Mao, Po-Yuan and Chen, Pin-Yu and Vargas, Danilo Vasconcellos},
