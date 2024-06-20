@@ -21,7 +21,7 @@
 - We propose a black-box algorithmic framework based on an Evolutionary Strategy titled EvoSeed to generate natural adversarial samples in an unrestricted setting.
 - Our results show that adversarial samples created using EvoSeed are photo-realistic and do not change the human perception of the generated image; however, can be misclassified by various robust and non-robust classifiers.
 
-<div align="center" vertical-align="middle">
+<div align="center">
     <img src="./assets/demo.jpg" alt="" width="100%">
 </div>
 Figure: Adversarial images created with EvoSeed are prime examples of how to deceive a range of classifiers tailored for various tasks.
@@ -29,6 +29,10 @@ Note that, the generated natural adversarial images differ from non-adversarial 
 
 ## <img src="./assets/icons/mortarboard.png" style="height:35px"> Tutorial:
 Tutorial for creating adversarial images for ResNet-50 using Stable Diffusion can be found in the [notebook](./code/Tutorial.ipynb)
+
+<div align="center">
+    <img src="./assets/output.gif" alt="" width="100%">
+</div>
 
 ## <img src="./assets/icons/cite.png" style="height:35px"> Citation:
 
