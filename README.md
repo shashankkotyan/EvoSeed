@@ -30,16 +30,6 @@ Note that, the generated natural adversarial images differ from non-adversarial 
 ## <img src="./assets/icons/mortarboard.png" style="height:35px"> Tutorial:
 Tutorial for creating adversarial images for ResNet-50 using Stable Diffusion can be found in the [notebook](./code/Tutorial.ipynb)
 
-<div align="center" style="display: inline-block;">
-    <img src="./assets/Correct Classification.jpg" alt="" width="25%" style="vertical-align: middle;">
-    <img src="./assets/icons/arrow-right.png" alt="" width="10%" style="vertical-align: middle;">
-    <img src="./assets/volcano-optimize.gif" alt="" width="25%" style="vertical-align: middle;">
-    <img src="./assets/icons/arrow-right.png" alt="" width="10%" style="vertical-align: middle;">
-    <img src="./assets/Wrong Classification.jpg" alt="" width="25%" style="vertical-align: middle;">
-</div>
-
-
-
 ## <img src="./assets/icons/cite.png" style="height:35px"> Citation:
 
 If you find this project useful please cite:
